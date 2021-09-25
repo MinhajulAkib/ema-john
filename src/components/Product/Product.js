@@ -12,7 +12,7 @@ const Product = (props) => {
             <div>
             <h4 className="product-name">{name}</h4>
             <p>by: {seller} </p>
-            <p>Stock: {stock}</p>
+            <p>Only {stock} left in Stock - Order Soon</p>
             <h3>Price:{price}</h3>
             </div>
         </div>
